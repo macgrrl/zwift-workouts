@@ -1,0 +1,37 @@
+<workout_file>
+    <author>Kirschen Seah</author>
+    <name>Active Recovery - Z1/Z2</name>
+    <description>2m Z2 / 5m Z1 recovery ride</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout>
+        <SteadyState Duration="300" Power="0.52">
+            <textevent timeoffset="270" message="2 minute Z2 coming up"/>
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.73"/>
+        <SteadyState Duration="300" Power="0.52">
+            <textevent timeoffset="270" message="2 minute Z2 coming up"/>
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.73"/>
+        <SteadyState Duration="300" Power="0.52">
+            <textevent timeoffset="270" message="2 minute Z2 coming up"/>
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.73"/>
+        <SteadyState Duration="300" Power="0.52">
+            <textevent timeoffset="270" message="2 minute Z2 coming up"/>
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.73"/>
+        <SteadyState Duration="300" Power="0.52">
+            <textevent timeoffset="270" message="2 minute Z2 coming up"/>
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.73"/>
+        <SteadyState Duration="300" Power="0.52">
+            <textevent timeoffset="270" message="2 minute Z2 coming up"/>
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.73"/>
+        <SteadyState Duration="180" Power="0.52">
+            <textevent timeoffset="0" message="Z1 cooldown"/>
+        </SteadyState>
+    </workout>
+</workout_file>
