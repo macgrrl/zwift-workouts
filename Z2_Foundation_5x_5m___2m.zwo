@@ -1,54 +1,41 @@
 <workout_file>
-    <author>Kirschen Seah</author>
-    <name>Z2 Foundation 5x 5m / 2m</name>
-    <description>5x 5m @ Z2 / 2m @ Z1</description>
-    <sportType>bike</sportType>
-    <tags>
-    </tags>
-    <workout>
-        <Warmup Duration="600" PowerLow="0.4" PowerHigh="0.73" Cadence="85">
-            <textevent timeoffset="570" message="Z2 @ 95 RPM Next"/>
-        </Warmup>
-        <SteadyState Duration="300" Power="0.73" Cadence="95">
-            <textevent timeoffset="0" message="95 RPM Cadence!"/>
-            <textevent timeoffset="270" message="Z1 @ 85 RPM Next"/>
-        </SteadyState>
-        <SteadyState Duration="120" Power="0.52" Cadence="85">
-            <textevent timeoffset="0" message="85 RPM Cadence!"/>
-            <textevent timeoffset="90" message="Z2 @ 95 RPM Next"/>
-        </SteadyState>
-        <SteadyState Duration="300" Power="0.73" Cadence="95">
-            <textevent timeoffset="0" message="95 RPM Cadence!"/>
-            <textevent timeoffset="270" message="Z1 @ 85 RPM Next"/>
-        </SteadyState>
-        <SteadyState Duration="120" Power="0.52" Cadence="85">
-            <textevent timeoffset="0" message="85 RPM Cadence!"/>
-            <textevent timeoffset="90" message="Z2 @ 95 RPM Next"/>
-        </SteadyState>
-        <SteadyState Duration="300" Power="0.73" Cadence="95">
-            <textevent timeoffset="0" message="95 RPM Cadence!"/>
-            <textevent timeoffset="270" message="Z1 @ 85 RPM Next"/>
-        </SteadyState>
-        <SteadyState Duration="120" Power="0.52" Cadence="85">
-            <textevent timeoffset="0" message="85 RPM Cadence!"/>
-            <textevent timeoffset="90" message="Z2 @ 95 RPM Next"/>
-        </SteadyState>
-        <SteadyState Duration="300" Power="0.73" Cadence="95">
-            <textevent timeoffset="0" message="95 RPM Cadence!"/>
-            <textevent timeoffset="270" message="Z1 @ 85 RPM Next"/>
-        </SteadyState>
-        <SteadyState Duration="120" Power="0.52" Cadence="85">
-            <textevent timeoffset="0" message="85 RPM Cadence!"/>
-            <textevent timeoffset="90" message="Z2 @ 95 RPM Next"/>
-        </SteadyState>
-        <SteadyState Duration="300" Power="0.73" Cadence="95">
-            <textevent timeoffset="0" message="95 RPM Cadence!"/>
-            <textevent timeoffset="270" message="Z1 @ 85 RPM Next"/>
-        </SteadyState>
-        <SteadyState Duration="120" Power="0.52" Cadence="85">
-            <textevent timeoffset="0" message="85 RPM Cadence!"/>
-            <textevent timeoffset="90" message="Work done, cooldown next"/>
-        </SteadyState>
-        <Cooldown Duration="300" PowerLow="0.52" PowerHigh="0.4"/>
-    </workout>
+  <author>Kirschen Seah</author>
+  <name>Z2 Foundation 5x 5m / 2m</name>
+  <description>5x 5m @ Z2 / 2m @ Z1</description>
+  <sportType>bike</sportType>
+  <durationType>time</durationType>
+  <tags/>
+  <workout>
+    <Warmup Duration="600" PowerLow="0.4" PowerHigh="0.73" Cadence="85">
+      <textevent timeoffset="570" message="Z2 @ 70 RPM Next"/>
+    </Warmup>
+    <SteadyState Duration="300" Power="0.73" Cadence="70">
+      <textevent timeoffset="270" message="Z1 @ 85 RPM Next"/>
+    </SteadyState>
+    <SteadyState Duration="120" Power="0.52" Cadence="85">
+      <textevent timeoffset="90" message="Z2 @ 100 RPM Next"/>
+    </SteadyState>
+    <SteadyState Duration="300" Power="0.73" Cadence="100">
+      <textevent timeoffset="270" message="Z1 @ 85 RPM Next"/>
+    </SteadyState>
+    <SteadyState Duration="120" Power="0.52" Cadence="85">
+      <textevent timeoffset="90" message="Z2 Next"/>
+    </SteadyState>
+    <SteadyState Duration="300" Power="0.73">
+      <textevent timeoffset="270" message="Z1 @ 85 RPM Next"/>
+    </SteadyState>
+    <SteadyState Duration="120" Power="0.52" Cadence="85">
+      <textevent timeoffset="90" message="Z2 @ 70 / 100 RPM Next"/>
+    </SteadyState>
+    <IntervalsT Repeat="4" OnDuration="60" OffDuration="15" OnPower="0.73" OffPower="0.73" Cadence="70" CadenceResting="100">
+      <textevent timeoffset="270" message="Z1 @ 85 RPM Next"/>
+    </IntervalsT>
+    <SteadyState Duration="120" Power="0.52" Cadence="85">
+      <textevent timeoffset="90" message="Z2 @ 100 RPM Next"/>
+    </SteadyState>
+    <SteadyState Duration="300" Power="0.73" Cadence="100">
+      <textevent timeoffset="270" message="Work done, cooldown next"/>
+    </SteadyState>
+    <Cooldown Duration="300" PowerLow="0.6" PowerHigh="0.4" Cadence="85"/>
+  </workout>
 </workout_file>
