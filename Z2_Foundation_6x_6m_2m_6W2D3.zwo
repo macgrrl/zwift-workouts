@@ -1,7 +1,7 @@
 <workout_file>
     <author>Kirschen Seah</author>
     <name>Z2 Foundation 6x 6m / 2m</name>
-    <description>6x 6m @ Z2 / 2m @ Z1</description>
+    <description>6x 6m @ Z2 / 2m @ Z1 (6 wk FTZP W2D3)</description>
     <sportType>bike</sportType>
     <tags>
     </tags>
@@ -10,7 +10,6 @@
             <textevent timeoffset="350" message="Z2 @ 95 NEXT"/>
         </Warmup>
         <SteadyState Duration="360" Power="0.73" Cadence="95">
-            <textevent timeoffset="0" message="90-100 RPM CADENCE!"/>
         </SteadyState>
         <SteadyState Duration="120" Power="0.52" Cadence="85">
             <textevent timeoffset="90" message="3x Z2 @ 90 / 100"/>
@@ -26,7 +25,6 @@
             <textevent timeoffset="90" message="6m Z2 @ 95"/>
         </SteadyState>
         <SteadyState Duration="360" Power="0.73" Cadence="95">
-            <textevent timeoffset="0" message="90-100 RPM CADENCE!"/>
         </SteadyState>
         <SteadyState Duration="120" Power="0.52" Cadence="85">
             <textevent timeoffset="90" message="3x Z2 @ 90 / 100"/>
