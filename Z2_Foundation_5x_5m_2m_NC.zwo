@@ -1,0 +1,21 @@
+<workout_file>
+    <author>Kirschen Seah</author>
+    <name>Z2 Foundation 5x 5m / 2m</name>
+    <description>5x 5m @ Z2 / 2m @ Z1 (Z2 with no cadence)</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.4" PowerHigh="0.73"/>
+        <SteadyState Duration="300" Power="0.73"/>
+        <SteadyState Duration="120" Power="0.52"/>
+        <SteadyState Duration="300" Power="0.73"/>
+        <SteadyState Duration="120" Power="0.52"/>
+        <SteadyState Duration="300" Power="0.73"/>
+        <SteadyState Duration="120" Power="0.52"/>
+        <SteadyState Duration="300" Power="0.73"/>
+        <SteadyState Duration="120" Power="0.52"/>
+        <SteadyState Duration="300" Power="0.73"/>
+        <Cooldown Duration="300" PowerLow="0.6" PowerHigh="0.4"/>
+    </workout>
+</workout_file>
