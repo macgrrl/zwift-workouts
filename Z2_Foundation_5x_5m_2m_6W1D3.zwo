@@ -28,7 +28,6 @@
       <textevent timeoffset="90" message="Z2 @ 70 / 100 RPM Next"/>
     </SteadyState>
     <IntervalsT Repeat="4" OnDuration="60" OffDuration="15" OnPower="0.73" OffPower="0.73" Cadence="70" CadenceResting="100">
-      <textevent timeoffset="270" message="Z1 @ 85 RPM Next"/>
     </IntervalsT>
     <SteadyState Duration="120" Power="0.52" Cadence="85">
       <textevent timeoffset="90" message="Z2 @ 100 RPM Next"/>
