@@ -1,0 +1,29 @@
+<workout_file>
+    <author>Kirschen Seah</author>
+    <name>Fondo W1D2 Intervals</name>
+    <description>Zwift Fondo Bambino W1D2</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout>
+        <Warmup Duration="300" PowerLow="0.4" PowerHigh="0.65"/>
+        <SteadyState Duration="240" Power="0.65"/>
+        <SteadyState Duration="120" Power="0.55"/>
+        <SteadyState Duration="210" Power="0.81"/>
+        <SteadyState Duration="120" Power="0.5"/>
+        <SteadyState Duration="150" Power="0.95"/>
+        <SteadyState Duration="120" Power="0.5"/>
+        <SteadyState Duration="210" Power="0.81"/>
+        <SteadyState Duration="120" Power="0.55"/>
+        <SteadyState Duration="240" Power="0.65"/>
+        <SteadyState Duration="120" Power="0.55"/>
+        <SteadyState Duration="210" Power="0.81"/>
+        <SteadyState Duration="120" Power="0.5"/>
+        <SteadyState Duration="150" Power="0.95"/>
+        <SteadyState Duration="120" Power="0.5"/>
+        <SteadyState Duration="210" Power="0.81"/>
+        <SteadyState Duration="120" Power="0.55"/>
+        <SteadyState Duration="240" Power="0.65"/>
+        <Cooldown Duration="180" PowerLow="0.65" PowerHigh="0.4"/>
+    </workout>
+</workout_file>
