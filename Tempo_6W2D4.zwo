@@ -1,0 +1,24 @@
+<workout_file>
+    <author>Kirschen Seah</author>
+    <name>Tempo 6W2D4</name>
+    <description>Tempo training: the goal of this training is to spend time in Zone 3 at an intensity where the use of sugar and fats as fuel is equal. Time spent in this zone increases muscle glycogen storages.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.4" PowerHigh="0.73"/>
+        <IntervalsT Repeat="4" OnDuration="240" OffDuration="120" OnPower="0.88" OffPower="0.53"/>
+        <SteadyState Duration="120" Power="0.53"/>
+        <SteadyState Duration="180" Power="0.86"/>
+        <SteadyState Duration="180" Power="0.89"/>
+        <SteadyState Duration="180" Power="0.53"/>
+        <SteadyState Duration="180" Power="0.89"/>
+        <SteadyState Duration="180" Power="0.86"/>
+        <SteadyState Duration="180" Power="0.53"/>
+        <SteadyState Duration="180" Power="0.86"/>
+        <SteadyState Duration="180" Power="0.89"/>
+        <SteadyState Duration="180" Power="0.53"/>
+        <IntervalsT Repeat="4" OnDuration="60" OffDuration="180" OnPower="1" OffPower="0.53"/>
+        <Cooldown Duration="180" PowerLow="0.53" PowerHigh="0.4"/>
+    </workout>
+</workout_file>
