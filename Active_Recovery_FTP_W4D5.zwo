@@ -1,0 +1,13 @@
+<workout_file>
+    <author>-</author>
+    <name>Active Recovery FTP W4D5</name>
+    <description>FTP Builder - Z2 3m / Z1 2m</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout>
+        <SteadyState Duration="300" Power="0.53"/>
+        <IntervalsT Repeat="7" OnDuration="180" OffDuration="120" OnPower="0.73" OffPower="0.53"/>
+        <SteadyState Duration="180" Power="0.53"/>
+    </workout>
+</workout_file>
