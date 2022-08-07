@@ -1,0 +1,36 @@
+<workout_file>
+    <author>Kirschen Seah</author>
+    <name>Z2 Foundation 6x 6m / 2m NC</name>
+    <description>6x 6m @ Z2 / 2m @ Z1 (6 wk FTP W2D3) No Cadence</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout>
+        <Warmup Duration="360" PowerLow="0.4" PowerHigh="0.73">
+        </Warmup>
+        <SteadyState Duration="360" Power="0.73">
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.52">
+        </SteadyState>
+        <SteadyState Duration="360" Power="0.73">
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.52">
+        </SteadyState>
+        <SteadyState Duration="360" Power="0.73">
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.52">
+        </SteadyState>
+        <SteadyState Duration="360" Power="0.73">
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.52">
+        </SteadyState>
+        <SteadyState Duration="360" Power="0.73">
+        </SteadyState>
+        <SteadyState Duration="120" Power="0.52">
+        </SteadyState>
+        <SteadyState Duration="360" Power="0.73">
+        </SteadyState>
+        <Cooldown Duration="360" PowerLow="0.6" PowerHigh="0.4">
+        </Cooldown>
+    </workout>
+</workout_file>
