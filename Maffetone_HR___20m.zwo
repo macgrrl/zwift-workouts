@@ -1,12 +1,12 @@
 <workout_file>
     <author>Kirschen Seah</author>
     <name>Maffetone HR - 20m</name>
-    <description>10m warmup, 20 Maffetone at 75% FTP, 5m cooldownm</description>
+    <description>10m warmup, 20 Maffetone at 65% FTP, 5m cooldownm</description>
     <sportType>bike</sportType>
     <tags/>
     <workout>
-        <Warmup Duration="600" PowerLow="0.4" PowerHigh="0.75" pace="0"/>
-        <SteadyState Duration="1200" Power="0.75" pace="0"/>
-        <Cooldown Duration="300" PowerLow="0.75" PowerHigh="0.4" pace="0"/>
+        <Warmup Duration="600" PowerLow="0.4" PowerHigh="0.65" pace="0"/>
+        <SteadyState Duration="1200" Power="0.65" pace="0"/>
+        <Cooldown Duration="300" PowerLow="0.65" PowerHigh="0.4" pace="0"/>
     </workout>
 </workout_file>
