@@ -1,0 +1,13 @@
+<workout_file>
+    <author>Kirschen Seah</author>
+    <name>Maffetone Ramp HR - 30m</name>
+    <description>10m warmup, 30m Maffetone Ramp 75 to 55% FTP, 5m cooldown</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.4" PowerHigh="0.75"/>
+        <Ramp Duration="1800" PowerLow="0.75" PowerHigh="0.55"/>
+        <Cooldown Duration="300" PowerLow="0.55" PowerHigh="0.4"/>
+    </workout>
+</workout_file>
